@@ -147,16 +147,86 @@ INSERT INTO tbl_users (created_at,source,name,city,birth_date,latitude,zip,passw
 
 * Insert data into the tbl_orders table.
 ```
+INSERT INTO tbl_orders (id,created_at,discount,product_id,quantity,subtotal,tax,total,user_id) VALUES (9,'2017-05-03T16:00:54.923Z',3.594742155259162,184,3,77.3982748679465,4.26,81.6742695904106,1);
 
+INSERT INTO tbl_orders (id,created_at,discount,product_id,quantity,subtotal,tax,total,user_id) VALUES (13,'2019-04-06T01:04:43.973Z',2.1173410336074987,70,2,57.493003808959784,3.95,61.42339339833593,3);
+
+INSERT INTO tbl_orders (id,created_at,discount,product_id,quantity,subtotal,tax,total,user_id) VALUES (21,'2018-05-02T03:57:22.388Z',NULL,94,5,109.21864156655383,7.51,116.62982729669602,3);
+
+INSERT INTO tbl_orders (id,created_at,discount,product_id,quantity,subtotal,tax,total,user_id) VALUES (22,'2019-12-12T21:32:01.533Z'2,6.752650070439861,10,1,47.6793282102869,1.38,49.056071014283766,4);
+
+INSERT INTO tbl_orders (id,created_at,discount,product_id,quantity,subtotal,tax,total,user_id) VALUES (23,'2019-06-02T11:33:15.096Z',NULL,85,5,54.90104734428525,1.59,56.5115886738793,4);
+
+INSERT INTO tbl_orders (id,created_at,discount,product_id,quantity,subtotal,tax,total,user_id) VALUES (26,'2018-06-20T02:18:00.254Z',NULL,40,5,99.66240044231697,3.99,103.57613671689575,5);
+
+INSERT INTO tbl_orders (id,created_at,discount,product_id,quantity,subtotal,tax,total,user_id) VALUES (27,'2019-04-28T07:01:15.932Z',NULL,14,2,37.648145389078365,1.51,39.11528698753412,6);
+
+INSERT INTO tbl_orders (id,created_at,discount,product_id,quantity,subtotal,tax,total,user_id) VALUES (42,'2019-11-16T08:11:08.666Z',NULL,145,3,61.1983004605443,4.28,65.5559297559252,7);
+
+INSERT INTO tbl_orders (id,created_at,discount,product_id,quantity,subtotal,tax,total,user_id) VALUES (43,'2019-11-03T20:24:38.219Z',NULL,193,3,50.38077396807232,3.27,53.70507001111754,8);
+
+INSERT INTO tbl_orders (id,created_at,discount,product_id,quantity,subtotal,tax,total,user_id) VALUES (44,'2017-10-01T14:47:29.444Z',NULL,101,6,93.21658710786936,6.06,99.33443001127412,8);
+
+INSERT INTO tbl_orders (id,created_at,discount,product_id,quantity,subtotal,tax,total,user_id) VALUES (53,'2018-09-15T13:06:14.139Z',NULL,79,3,41.616917284159726,2.5,44.22580561704055,9);
+
+INSERT INTO tbl_orders (id,created_at,discount,product_id,quantity,subtotal,tax,total,user_id) VALUES (54,'2018-10-26T20:41:23.428Z',7.63762060148704,68,4,115.24343882309758,6.63,122.11637851493803,10);
+
+INSERT INTO tbl_orders (id,created_at,discount,product_id,quantity,subtotal,tax,total,user_id) VALUES (74,'2020-02-20T00:36:30.807Z',1.8457579767720553,154,1,81.87529553312261,3.28,85.41374069109672,12);
+
+INSERT INTO tbl_orders (id,created_at,discount,product_id,quantity,subtotal,tax,total,user_id) VALUES (75,'2017-04-10T23:33:10.082Z',NULL,13,2,75.0861692740371,3,77.95866140384386,12);
+
+INSERT INTO tbl_orders (id,created_at,discount,product_id,quantity,subtotal,tax,total,user_id) VALUES (76,'2016-12-19T19:40:17.782Z',NULL,185,2,26.384667225677738,1.72,28.098902628941254,15);
 ```
 
+* Insert data into tbl_reviews.
+```
+INSERT INTO tbl_reviews (id,body,created_at,product_id,rating,reviewer) VALUES (1,'Ad perspiciatis quis et consectetur. Laboriosam fuga voluptas ut et modi ipsum. Odio et eum numquam eos nisi. Assumenda aut magnam libero maiores nobis vel beatae officia.','2018-05-15T20:25:48.517Z',1,5,'christ');
 
+INSERT INTO tbl_reviews (id,body,created_at,product_id,rating,reviewer) VALUES (2,'Reprehenderit non error architecto consequatur tempore temporibus. Voluptate ut accusantium quae est. Aut sit quidem nihil maxime dolores molestias. Enim vel optio est fugiat vitae cumque ut. Maiores laborum rerum quidem voluptate rerum.','2019-08-07T13:50:33.401Z',1,4,'xavier');
 
-<details>
-  <summary>Click to view code</summary>
+INSERT INTO tbl_reviews (id,body,created_at,product_id,rating,reviewer) VALUES (3,'In aut numquam labore fuga. Et tempora sit et mollitia aut ullam et repellat. Aliquam sint tenetur culpa eius tenetur. Molestias ipsa est ut quisquam hic necessitatibus. Molestias maiores vero nesciunt.','2018-03-30T00:28:45.192Z',1,5,'cameron.nitzsche');
 
-  ```python
-  # Contoh kode panjang di bawah ini
-  print("Hello World!")
-  for i in range(1000):
-      print(i)
+INSERT INTO tbl_reviews (id,body,created_at,product_id,rating,reviewer) VALUES (4,'Est accusamus provident non animi labore minus aut mollitia. Officiis voluptatem quo dolorem sunt qui ipsum nobis totam. Et qui et qui quia ipsa ipsam minima.','2017-11-13T22:29:12.121Z',1,4,'barbara-shields');
+
+INSERT INTO tbl_reviews (id,body,created_at,product_id,rating,reviewer) VALUES (5,'Id sed sint corrupti molestias ad alias aut in. Nihil debitis ipsum repellendus voluptatem facere. Fugiat fugiat necessitatibus nobis hic.','2017-11-19T07:08:54.771Z',1,5,'clement');
+
+INSERT INTO tbl_reviews (id,body,created_at,product_id,rating,reviewer) VALUES (6,'Omnis pariatur autem adipisci eligendi. Eos aut accusantium dolorem et. Numquam vero debitis id provident odit doloremque enim.','2018-02-11T03:05:17.346Z',1,5,'jaunita');
+
+INSERT INTO tbl_reviews (id,body,created_at,product_id,rating,reviewer) VALUES (7,'Non unde voluptate nam quo. Quibusdam vero doloremque ut voluptas. Sequi commodi voluptatem vero debitis velit in. Quis dolores id qui aut voluptatibus. Magnam laborum sunt sit saepe reprehenderit.','2020-01-31T12:35:59.147Z',1,5,'perry.ruecker');
+
+INSERT INTO tbl_reviews (id,body,created_at,product_id,rating,reviewer) VALUES (8,'Quia ullam qui quae distinctio non nostrum laboriosam. Voluptatum velit et est dolore corporis sed. Dolore quia non illum quia omnis laudantium tempore.','2019-12-10T16:16:36.999Z',1,4,'cristina.balistreri');
+
+INSERT INTO tbl_reviews (id,body,created_at,product_id,rating,reviewer) VALUES (9,'Quo sed optio cum. Et officiis cumque quis. Facere unde porro sit voluptatem nulla incidunt. Rerum accusantium aut consequatur quae. Rerum ut eligendi vel repudiandae voluptates.','2019-11-06T10:43:14.868Z',3,4,'wilma-muller');
+
+INSERT INTO tbl_reviews (id,body,created_at,product_id,rating,reviewer) VALUES (10,'Est consectetur impedit sit. Distinctio corrupti ut magni provident recusandae aliquam qui error. Omnis et debitis pariatur doloribus quia blanditiis eaque. Voluptates ut eum minus quasi alias. Officiis nostrum facilis possimus.','2019-02-13T17:37:35.244Z',3,4,'herman-marquardt');
+
+INSERT INTO tbl_reviews (id,body,created_at,product_id,rating,reviewer) VALUES (11,'Blanditiis sequi reprehenderit nesciunt eos numquam a alias quibusdam. Et alias dolor vel. Non enim corporis magni dolorem voluptatem laudantium sit.','2018-10-22T23:12:30.534Z',3,4,'carolyne');
+
+INSERT INTO tbl_reviews (id,body,created_at,product_id,rating,reviewer) VALUES (12,'Sint sed et libero excepturi aut. Nihil tempora reprehenderit et et harum consectetur alias voluptatum. Sed et consequatur quibusdam natus nihil non illum.','2018-11-26T23:42:48.594Z',3,4,'ralph-klocko');
+
+INSERT INTO tbl_reviews (id,body,created_at,product_id,rating,reviewer) VALUES (13,'Enim consequatur voluptas temporibus iusto optio. Nihil et ea iste autem est. Accusamus sint corporis ullam.','2019-06-21T07:29:55.724Z',3,4,'gerry');
+
+INSERT INTO tbl_reviews (id,body,created_at,product_id,rating,reviewer) VALUES (14,'Placeat non inventore odit. Illum ullam rerum cum corrupti maiores. Nihil sequi molestias dolore explicabo doloremque nobis omnis. Saepe id voluptatem ut nemo. Commodi laborum qui amet hic rerum omnis iste.','2019-03-26T21:16:27.557Z',3,4,'lula-pouros');
+
+INSERT INTO tbl_reviews (id,body,created_at,product_id,rating,reviewer) VALUES (15,'Minus minima ea fugit vero consectetur. Voluptatibus dignissimos quibusdam alias quam eos deserunt maxime. Dolorem exercitationem ex nobis et esse odit accusamus voluptatum.','2019-11-30T07:00:39.059Z',3,4,'jalon.pagac');
+```
+
+## Run queries and verify the results
+
+Now that you have a database with tables with data, you can begin exploring YSQL. To get you started, you'll run a few SELECT queries and verify the results. To copy and execute the SQL code snippets, simply select the  Copy  button. 
+
+Here are the steps to follow:
+
+* Verify the number of rows in the tbl_products table.
+```
+SELECT count(*) FROM tbl_products;
+```
+* Show the rows in the tbl_products table.
+```
+SELECT id, category, title, price FROM 
+tbl_products;
+```
+That's it! To close your YugabyteDB Managed Shell, use the exit command.
+```
+exit
+```
