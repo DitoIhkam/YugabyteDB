@@ -157,3 +157,16 @@ Berikut adalah tampilan YugabyteUI
 ![alt text](https://github.com/DitoIhkam/YugabyteDB/blob/main/Deployment%20Yugabyte/img/3.%20YugabyteUI.png?raw=true)
 
 ## Masalah/kebingungan
+
+1. Kebingungan ketika yugabyte menawarkan untuk dibuatkan user `yugabyte` pada saat preflight pertama kali menggunakan command `./yba-ctl preflight`. Ketika kita enter y/yes dan kita melakukan preflight ulang yang kedua kalinya menggunakan `./yba-ctl preflight`, yugabyte menawarkan ulang kedua kalinya untuk dibuatkan user yang padahal di preflight sudah Pass/tidak ada masalah. 
+ 
+Pada akhirnya masalah ini terselesaikan dengan cara membuat user `yugabyte` secara manual, dan ketika melakukan preflight ulang, yugabyte sudah tidak menawarkan untuk membuat user `yugabyte`
+
+![alt text](https://github.com/DitoIhkam/YugabyteDB/blob/main/Deployment%20Yugabyte/img/KEBINGUNGAN.png?raw=true)
+
+2. Masalah ketika melakukan konfigurasi permission, apakah semua command ini dimasukkan kedalam sudoers (sudo visudo)? dan untuk path nya apa dia mengarah ke dalam folder yang pertama kali di extract atau folder yang dibuat yugabyte setelah prefligth di /opt/yba-ctl ?
+
+konfigurasi permission
+![alt text](https://github.com/DitoIhkam/YugabyteDB/blob/main/Deployment%20Yugabyte/img/KEBINGUNGAN%202.png?raw=true)
+
+![alt text](https://github.com/DitoIhkam/YugabyteDB/blob/main/Deployment%20Yugabyte/img/KEBINGUNGAN%20333.png?raw=true)
