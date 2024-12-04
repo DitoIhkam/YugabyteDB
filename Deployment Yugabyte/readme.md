@@ -78,12 +78,14 @@ setelah itu, pergi ke direktori yba
 ![alt text](https://github.com/DitoIhkam/YugabyteDB/blob/main/Deployment%20Yugabyte/img/0.2%20Download%2C%20untar%2C%20and%20cd.png?raw=true)
 > Proses download, untar, dan cd ke yba
 
-### Preflight check yang nanti bakal buat konfigurasi otomatis di folder  /opt/yba-ctl
+### Preflight check 
+
+prefligth ini berfungsi untuk memeriksa kebutuhan sebelum menginstall yugabyte yang diperlukan.  nantinya akan dibuat konfigurasi otomatis di folder  /opt/yba-ctl
 ```
 sudo ./yba-ctl preflight
 ```
 ![alt text](https://github.com/DitoIhkam/YugabyteDB/blob/main/Deployment%20Yugabyte/img/0.3%20spreflight%20utf%20dan%20license%20perlu%20diperbaiki.png?raw=true)
-dia akan membuat folder /opt/yba-ctl dan membuat user yugabyte. Tetapi user yugabyte tetap tidak akan dibuat dan harus dibuat manual. 
+Setelah menjalankan command ini, dia akan membuat folder /opt/yba-ctl dan beberapa konfigurasi didalamnya, serta membuat user yugabyte. Tetapi walaupun dia menawarkan untuk dibuatkan user `yugabyte` dan kita pilih yes, dia tetap tidak akan membuat user yugabyte. Artinya nanti kita perlu membuat user `yugabyte` sendiri
 
 ### Masalah validate-locale-config
 Locale adalah pengaturan sistem yang menentukan format tampilan untuk tanggal, waktu, angka, dan karakter berdasarkan bahasa dan negara tertentu. Dalam hal ini, en_US.UTF-8 merujuk pada locale bahasa Inggris (United States) dengan encoding UTF-8.
@@ -154,3 +156,4 @@ Daftarkan akunnya. Setelah akun didaftarkan. Login ke akun yugabyte yang sudah d
 Berikut adalah tampilan YugabyteUI
 ![alt text](https://github.com/DitoIhkam/YugabyteDB/blob/main/Deployment%20Yugabyte/img/3.%20YugabyteUI.png?raw=true)
 
+## Masalah/kebingungan
