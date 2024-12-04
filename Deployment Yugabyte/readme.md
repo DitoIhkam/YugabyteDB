@@ -167,6 +167,10 @@ Pada akhirnya masalah ini terselesaikan dengan cara membuat user `yugabyte` seca
 2. Masalah ketika melakukan konfigurasi permission, apakah semua command ini dimasukkan kedalam sudoers (sudo visudo)? dan untuk path nya apa dia mengarah ke dalam folder yang pertama kali di extract atau folder yang dibuat yugabyte setelah prefligth di /opt/yba-ctl ?
 
 konfigurasi permission
+
+
 ![alt text](https://github.com/DitoIhkam/YugabyteDB/blob/main/Deployment%20Yugabyte/img/KEBINGUNGAN%202.png?raw=true)
+
+Lokasi
 
 ![alt text](https://github.com/DitoIhkam/YugabyteDB/blob/main/Deployment%20Yugabyte/img/KEBINGUNGAN%20333.png?raw=true)
