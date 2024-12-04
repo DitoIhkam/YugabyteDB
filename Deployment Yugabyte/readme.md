@@ -59,6 +59,11 @@ Skip, just for production
 
 ## Download and extract
 
+### Install wget if not available
+```
+sudo dnf install wget -y
+```
+
 ### Download yugabyte
 ```
 wget https://downloads.yugabyte.com/releases/2.23.1.0/yba_installer_full-2.23.1.0-b220-linux-x86_64.tar.gz
@@ -71,12 +76,40 @@ tar xvzf yba_installer_full-2.23.1.0-b220-linux-x86_64.tar.gz
 
 ### Go to directory and check preflight
 
+### Preflight check yang nanti bakal buat konfigurasi otomatis ke /opt/yba-ctl
+```
+sudo ./yba-ctl preflight
+```
+dia akan membuat folder /opt/yba-ctl dan membuat user yugabyte. Tetapi user yugabyte tetap tidak akan dibuat dan harus dibuat manual. 
 
-buat user yugabyte beserta password (adduser & passwd)
-cek preflight yang nanti bakal buat konfigurasi otomatis ke /opt/yba-ctl
-./yba-ctl license add -l /opt/yba-ctl/yba.lic (pastikan license sudah pindah kesini)
+### Masalah UTF8
+install berikut 
+```
+sudo dnf install glibc-langpack-en
+```
+(gambar)
+lalu cek preflight lagi
 
+buat user yugabyte beserta password
+```
+adduser yugabyte
+```
+buat password jika memungkinkan
+```
+passwd yugabyte
+```
 
+### Activate lisensi
+
+Pastikan lisensi baru sudah tersedia di /opt/yba-ctl
+(gambar)
+
+Aktivasi lisensi
+```
+./yba-ctl license add -l /opt/yba-ctl/yba.lic 
+```
+(pastikan license sudah pindah kesini)
+(gambar)
 
 ./yba-ctl start (untuk start semua)
 ./yba-ctl stop (untuk stop semua)
