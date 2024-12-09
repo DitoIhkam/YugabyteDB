@@ -89,6 +89,10 @@ ulimit -a
 kita perlu mengatur limitnya di `/etc/security/limits.conf`
 konfigurasi ini biasa nya ada dengan OS berbasis RHEL. edit file limits.conf nya di akhir isi file dengan isi berikut, kemudian reboot OS nya
 ```
+sudo nano /etc/security/limits.conf
+```
+
+```
 *                -       core            unlimited
 *                -       data            unlimited
 *                -       fsize           unlimited
