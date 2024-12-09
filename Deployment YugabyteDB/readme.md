@@ -1,4 +1,4 @@
-# YugabyteDB Deployment
+# YugabyteDB
 
 ## Prerequisite
 
@@ -139,6 +139,7 @@ sudo yum update
 ### Download yugabyte
 
 File yugabyteDB yang bisa didownload bisa dilihat di antara 2 link ini, namun saya memilih yang pertama 
+
 1. 
 ```
 https://docs.yugabyte.com/preview/quick-start/linux/
