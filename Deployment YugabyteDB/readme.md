@@ -46,7 +46,7 @@ python -V
 
 apabila belum terinstall versi yang sesuai, install dengan command dibawah
 ```
-sudo yum install python38
+sudo yum install python38 -y
 ```
 
 Lalu, pastikan OS mengggunakan versi yang diinginkan dengan command ini
