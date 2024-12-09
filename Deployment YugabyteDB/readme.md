@@ -1,10 +1,12 @@
-# YugabyteDB
+# YugabyteDB Deployment
 
 ## Prerequisite
 
 ### OS
 
 Pada praktek kali ini, saya menggunakan almalinux 8.x (Keluarga RHEL), tetapi untuk versi OS support lainnya bisa dilihat dibawah ini.
+
+
 ![alt text](https://github.com/DitoIhkam/YugabyteDB/blob/main/Deployment%20Yugabyte/img/0.1%20OS.png?raw=true)
 
 ### Hardware
