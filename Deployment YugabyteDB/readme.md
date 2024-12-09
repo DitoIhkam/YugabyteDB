@@ -122,7 +122,10 @@ cat /proc/cpuinfo | grep sse4.2
 
 ### Network/Port
 
-Beberapa port dibawah ini harus diizinkan agar Service YugabyteDB bisa berjalan dengan baik. Dalam hal ini agar mempermudah karna development saja, matikan firewalld dengan `sudo systemctl stop firewalld`
+Beberapa port dibawah ini harus diizinkan agar Service YugabyteDB bisa berjalan dengan baik. Dalam hal ini agar mempermudah karna development saja, matikan firewalld dengan 
+```
+sudo systemctl stop firewalld
+```
 
 | **Purpose**                          | **Port** | **Description**                                |
 |--------------------------------------|----------|------------------------------------------------|
