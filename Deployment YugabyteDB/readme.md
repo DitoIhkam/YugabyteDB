@@ -1,4 +1,4 @@
-# YugabyteDB
+# YugabyteDB Deployment
 
 ## Prerequisite
 
@@ -159,7 +159,7 @@ Untar Filenya
 tar -xvzf yugabyte-2.23.1.0-b220-linux-x86_64.tar.gz
 ```
 
-Masuk ke direktori `yugabyte-2.23.1.0-b220-linux-x86_64`, lalu `bin`
+Masuk ke direktori `yugabyte-2.23.1.0-b220-linux-x86_64/bin`
 
 
 konfigurasi post install untuk memastikan dependensi dan izin terpenuhi
@@ -195,6 +195,19 @@ command diatas dijalankan hanya di master leader, untuk followernya di 2 vm lain
 ```
 ./yugabyted start --join=<ip-master>
 ```
+(gambar)
+
+
+berikut adalah hasilnya
+
+YB-Master
+
+YB-Tserver
+
+YB UI
+
+
+
 
 1. sudo dnf update / sudo yum update / sudo apt update
 2. python -V / python --version / python3 -V / python3 --version
