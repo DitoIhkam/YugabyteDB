@@ -1,4 +1,4 @@
-# YugabyteDB Deployment
+# YugabyteDB
 
 ## Prerequisite
 
@@ -25,11 +25,14 @@ Berikut informasi tentang minimum requirement yugabyte
 
 Pada YugabyteDB, versi python yang dibutuhkan antara 3.6-3.8. Sedangkan, untuk Yugabyte Anywhere versi yang dibutuhkan antara 3.8-3.11. Maka kita ambil yang support keduanya yaitu versi 3.8 (per 9 Desember 2024). Referensinya bisa dilihat di dokumentasi dan gambar dibawah
 
-Yugabyte DB
+Yugabyte DB :
+
 https://docs.yugabyte.com/preview/yugabyte-platform/prepare/server-nodes-software/software-on-prem-manual/
+
 (gambar python db versi)
 
-Yugabyte Anywhere
+Yugabyte Anywhere : 
+
 https://docs.yugabyte.com/preview/yugabyte-platform/prepare/server-yba/
 (gambar python dba versi)
 
