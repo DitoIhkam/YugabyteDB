@@ -55,6 +55,7 @@ python
 sudo alternatives --config python
 ```
 (gambar)
+
 python3
 ```
 sudo alternatives --config python3
