@@ -183,7 +183,7 @@ tar -xvzf yugabyte-2.23.1.0-b220-linux-x86_64.tar.gz
 Masuk ke direktori `yugabyte-2.23.1.0-b220-linux-x86_64/bin`
 
 
-konfigurasi post install untuk memastikan dependensi dan izin terpenuhi
+Jalankan post install untuk memastikan dependensi dan izin terpenuhi
 ```
 sudo ./post_install.sh
 ```
@@ -191,7 +191,7 @@ sudo ./post_install.sh
 
 ### Set Up Time synchronization
 
-YugabyteDB mengandalkan sinkronisasi jam untuk menjamin konsistensi dalam transaksi terdistribusi. chrony adalah implementasi NTP yang lebih disukai untuk sinkronisasi jam
+YugabyteDB mengandalkan sinkronisasi jam untuk menjamin konsistensi dalam transaksi terdistribusi. chrony adalah implementasi NTP yang lebih disukai untuk sinkronisasi jam. Setelah yugabytedb didownload dan di untar, kita baru bisa mengkonfigurasikan ini.
 
 Install Chrony
 ```
