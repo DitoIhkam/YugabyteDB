@@ -244,9 +244,9 @@ Pada praktek sebelumnya, saya sudah mendeploy 1 node yugabyte dengan beberapa pe
 
 Setelah follower terkoneksi dengan master yang sudah ada, berikut adalah tampilan dari yugabyte ui maupun yugabyte master (YB-Master) yang ada di master maupun di follower yang sudah terkoneksi 3 node.
 
-Yugabyte UI
+Yugabyte UI dengan tampilan 3 node sudah terkoneksi
 ![alt text](https://github.com/DitoIhkam/YugabyteDB/blob/main/Deployment%20YugabyteDB/image/26.%20YugabyteUI%20with%203%20node%20connect.png?raw=true)
-Yugabyte Master
+Yugabyte Master dengan 1 master leader dan 2 follower serta 3 tserver terkoneksi
 ![alt text](https://github.com/DitoIhkam/YugabyteDB/blob/main/Deployment%20YugabyteDB/image/27.%20YBMaster%20n%20Tserver%203%20node.png?raw=true)
 
 ## Database Demo
@@ -266,25 +266,5 @@ Didalam yugabyte UI, data-data tidak bisa dilihat secara langsung, namun hanya t
 
 ![alt text](https://github.com/DitoIhkam/YugabyteDB/blob/main/Deployment%20YugabyteDB/image/30.%20Database%20Demo%20YSQL%20in%20UI%202.png?raw=true)
 
-YB-Master
-
-YB-Tserver
-
-YB UI
 
 
-
-
-1. sudo dnf update / sudo yum update / sudo apt update
-2. python -V / python --version / python3 -V / python3 --version
-3. Download python 3.9 or newer (dont do it if already)
-4. sudo alternatives --config python (for almalinux yang gabisa dicek python -V nya)
-5. sudo yum install nano (kalo mau pake nano)
-6. ulimit config
-7. download using wget (install wget dulu)
-9. untar
-10. post install
-11. cd /yugabyte/bin, then ./yugabyted start 
-
-
-sudo dnf update
