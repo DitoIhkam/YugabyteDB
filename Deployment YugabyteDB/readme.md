@@ -256,6 +256,11 @@ Setelah yugabyte terinstall menggunakan `./yugabyted start`, pada dasarnya folde
 ```
 sudo ./yugabyted demo connect --base_dir=~/var
 ```
+
+Lalu setelah itu otomatis akan masuk ke YSQL dengan terkoneksi ke database demo otomatis. gunakan command berikut untuk menampilkan salah satu data tabel nya
+```
+select * from products;
+```
 ![alt text](https://github.com/DitoIhkam/YugabyteDB/blob/main/Deployment%20YugabyteDB/image/28.%20Create%20Database%20Demo%20and%20show%20database.png?raw=true)
 
 ### Tampilan di UI
