@@ -91,7 +91,7 @@ check limitnya menggunakan command ini
 ```
 ulimit -a
 ```
-![alt text](https://github.com/DitoIhkam/YugabyteDB/blob/main/Deployment%20YugabyteDB/image/7.%20Edit%20ulimit.png?raw=true)
+
 
 kita perlu mengatur limitnya di `/etc/security/limits.conf`
 konfigurasi ini biasa nya ada dengan OS berbasis RHEL. edit file limits.conf nya di akhir isi file dengan isi berikut, kemudian reboot OS nya dengan `sudo reboot`
@@ -113,7 +113,7 @@ sudo nano /etc/security/limits.conf
 *                -       nproc           12000
 *                -       locks           unlimited
 ```
-
+![alt text](https://github.com/DitoIhkam/YugabyteDB/blob/main/Deployment%20YugabyteDB/image/7.%20Edit%20ulimit.png?raw=true)
 
 ### SSE2 dan SSE4
 
